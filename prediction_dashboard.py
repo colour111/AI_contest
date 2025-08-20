@@ -45,7 +45,7 @@ def load_data_and_model(file_path):
         return None, None, None
 
 # 파일 경로 설정 (v2 폴더)
-data_file_path = '/Users/namchaewon/Desktop/python/AI_contest/v2/debt_customer_analysis.csv'
+data_file_path = 'debt_customer_analysis.csv'
 df, scaler, kmeans = load_data_and_model(data_file_path)
 
 # 군집 이름 및 전략 매핑
